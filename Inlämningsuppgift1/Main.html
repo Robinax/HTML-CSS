@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<link rel="stylesheet"href="Style.css">
+    <title>Undersökningsformulär</title>
+  </head>
+  <body>
+    <h1>Detta är en undersökning!</h1>
+
+    <form action="">
+ <label for="fname"><strong>Förnamn</strong></label><br>
+ <input type="text" id="fname" name="fname"maxlength="20"><br><br>
+</form>
+<br><br>
+
+
+ <label for="omdig"><strong>Skriv lite om dig själv:</strong></label><br>
+<textarea id="omdig2" name="omdigsjälv" rows="4" cols="30">
+</textarea>
+
+<br><br><br>
+ <label for="omdig"><i>Tränar du någon sport?</i></label>
+ <form action="">
+   <input type="radio" name="sport" value="ja"><strong>JA</strong><br>
+   <input type="radio" name="sport" value="nej"><strong>NEJ</strong><br>
+ </form>
+
+ <br><br><br>
+ <em><strong>på vilket sätt föredrar du att läsa?</strong></em>
+ <form action="/action_page.php">
+   <input type="checkbox" id="read1" name="read1" value="Böcker">
+   <label for="read1"> Böcker</label><br>
+   <input type="checkbox" id="Tidningar" name="Tidningar" value="Tidningar">
+   <label for="vehicle2"> Tidningar</label><br>
+   <input type="checkbox" id="online" name="online" value="online">
+   <label for="vehicle3"> Online</label><br><br>
+
+ </form>
+<br><br><br>
+
+<strong>Välj vilken film genre du helst tittar på!</strong>
+ <select name="favoritgenre" id="favoritgenre">
+ <option>  </option>
+ <option value="action"> Action </option>
+ <option value="Romantik"> Romantik </option>
+ <option value="Komedi"> Komedi </option>
+ <option value="Drama"> Drama </option>
+  <option value="Skräck"> Skräck </option>
+ </select>
+
+<br><br><br>
+<strong>Tryck för att gå vidare</strong>
+<br>
+ <input type="submit" value="Skicka">
+
+  </body>
+</html>

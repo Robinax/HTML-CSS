@@ -1,0 +1,7 @@
+input#fname {
+  width:35px;
+  display: inline-block;
+}
+textarea#omdig2 {
+    background: yellow;
+}
