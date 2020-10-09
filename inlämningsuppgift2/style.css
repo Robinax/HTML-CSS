@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.intro h1{
+  text-align: center;
+  font-family: Sofia;
+  color: red;
+  padding-top: 60px;
+  margin:0;
+}
+.intro header{
+  background-image: url("zeen.webp");
+  background-size:cover;
+  padding-bottom: 30px;
+background-position:center;
+}
+.intro h2{
+text-align: right;
+font-family:Sofia;
+color: white;
+}
+.summary{
+  font-style: italic;
+  clear: both;
+	margin: 0px 10px 0x 0px;
+	width: 150px;
+	float: left;
+  background-color: beige;
+  border-radius: 5%;
+}
+.preamble{
+  padding-top: 10px;
+  margin: 0px 0px 0px 0px;
+  background-color: #339933;
+}
+.preamble h3{
+  font-size: 1.4em;
+  font-style: oblique;
+  text-align: center;
+  background-color: yellow;
+}
+.preamble p{
+    background: lightblue;
+    padding: 0.2;
+    margin-bottom: 0;
+}
+.explanation h3{
+  text-align: center;
+  width: 200px;
+ border: 5px solid blue;
+ background-color: gray;
+ padding: 20px;
+ margin-top: 0;
+ margin-left: auto;
+margin-right:auto;
+
+}
+.explanation{
+  background-color: #339933;
+  margin: 0;
+  padding-bottom: 20px;
+}
+.participation h3{
+  border: .8em darkviolet;
+    border-style: dotted double;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1.4em;
+    background: linear-gradient(60deg, red, yellow, red, yellow, red);
+    font: 900 1.2em sans-serif;
+    text-align: center;
+    font-size: 1.4em;
+}
+.participation p{
+  background-color: pink;
+  margin-right: 205px;
+}
+.participation{
+  background-color: lightblue;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+.benefits h3{
+  text-align: center;
+  font-size: 80px;
+color: #fff;
+text-align: center;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+background-color: black;
+margin:0;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.benefits{
+  background-color: black;
+}
+.benefits p{
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  margin-right: 205px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+.requirements{
+  background-color: darkviolet;
+}
+.requirements h3{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  font-size: 2em;
+  text-align: center;
+  background-color: darkviolet;
+  margin: 0;
+}
+.requirements p{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  background-color: #ffb380;
+  margin-bottom: 0;
+}
+footer{
+	text-align: center;
+margin: 0;
+background-color: pink;
+font-size: 1.4em;
+}
+
+footer a:link, footer a:visited {
+	margin-right: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+.sidebar{
+  font-style: italic;
+  width: 200px;
+  background-color: beige;
+  border-radius: 5%;
+  position: absolute;
+  top: 690px;
+  right: 0;
+  border: 3px solid #73AD21;
+}
