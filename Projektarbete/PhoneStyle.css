@@ -93,7 +93,6 @@
   .Startcard-text {
     text-align: left;
   }
-}
 
 .cardp {
   margin: auto;
@@ -115,6 +114,6 @@
 }
 
 .Familj {
-  width: 14rem;
+  width: 14em;
 }
 }
