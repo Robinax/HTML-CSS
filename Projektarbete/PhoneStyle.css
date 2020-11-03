@@ -1,0 +1,120 @@
+@media only screen and (max-width:900px) {
+  .Nyheter, .omoss {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width:700px) {
+  .first_row_pictures, .second_row_video {
+    flex-direction: column;
+  }
+}
+
+/*@media only screen and (max-width:360px) {
+  .Headerhead{
+    height: 10em;
+  background-size: cover;
+  }
+  .news {
+    text-align: center;
+  }
+  .Nyheter
+  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+  }
+  .StartVideo{
+
+    margin: 0;
+    height: 20rem;
+    width: 5em;
+    margin-top: 1em;
+    margin-bottom: 5em;
+  }
+  .Startcard-img-top{
+    height: 10rem;
+  }
+  .Startcard{
+    margin: 2em;
+    width: 30rem;
+  }
+  .Startcard-text{
+    text-align:left;
+  }
+  .cardp{
+    margin: auto;
+    margin-top: 1em;
+  }
+  .card{
+    margin: auto;
+    margin-top: 1em;
+  }
+  .omoss p{
+    width: 5em;
+    height: 70em;
+  }
+  .Familj{
+    width: 14rem;
+  }
+}*/
+@media only screen and (max-width:600px) {
+  .Headerhead {
+    height: 30rem;
+  }
+
+  .news {
+    text-align: center;
+  }
+
+  .Nyheter {
+    display: flex;
+    justify-content: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 5em;
+    float: none;
+  }
+
+  .StartVideo {
+    background-color: black !important;
+    margin-top: 2em;
+    height: 25rem;
+    width: auto;
+    margin-top: 10em;
+    margin-bottom: 5em;
+  }
+
+  .Startcard-img-top {
+    height: 15rem;
+  }
+
+  .Startcard-text {
+    text-align: left;
+  }
+}
+
+.cardp {
+  margin: auto;
+  margin-top: 2em;
+}
+
+.card {
+  margin: auto;
+  margin-top: 2em;
+}
+
+.omoss h1 {
+  text-align: center;
+}
+
+.omoss p {
+  width: 26em;
+  height: 45em;
+}
+
+.Familj {
+  width: 14rem;
+}
+}
